@@ -1,2 +1,1 @@
-# NIDS_EDA
-Exploratory data analysis of network intrusion detection datasets
+Exploratory Data Analysis (EDA) of CSE-CIC-IDS2018 dataset
