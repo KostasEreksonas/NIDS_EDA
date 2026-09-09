@@ -1,5 +1,5 @@
 [project]
-name = "ids"
+name = "cse-cic-ids2018"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,14 +10,14 @@ requires-python = ">=3.13"
 dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.11.1",
+    "numpy>=2.5.3",
     "pandas>=3.0.5",
     "scikit-learn>=1.9.0",
-    "seaborn>=0.13.2",
     "xgboost>=3.4.1",
 ]
 
 [project.scripts]
-ids = "ids:main"
+cse-cic-ids2018 = "cse_cic_ids2018:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
